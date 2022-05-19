@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            width: 60%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formulário</h3>
+    <div>
+    <form>
+        <fieldset> <legend>Dados Pessoais</legend>
+     Nome: 
+<input type="text" name="nome">
+<br>
+Data de Nascimento: <input type="date" name="nascimento">
+<br>
+E-mail: <input type="email" name="e-mail">
+<br>
+Telefone:
+<input type="text" name="telefone"> 
+</fieldset>
+<fieldset> <legend>Dados Acadêmicos</legend>
+    Curso:
+    <select name="Curso" id="Curso">
+        <option>GTI</option>
+        <option>ADS</option>
+        <option>STI</option>
+        <option>RH</option>
+    </select>
+    <br>
+    <label>Semestre:</label>
+    <label>1°</label>
+    <input type="radio" name="Semestre">
+    <label>2°</label>
+    <input type="radio" name="Semestre">
+    <label>3°</label>
+    <input type="radio" name="Semestre">
+    <label>4°</label>
+    <input type="radio" name="Semestre">
+    <label>5°</label>
+    <input type="radio" name="Semestre">
+    <label>6°</label>
+    <input type="radio" name="Semestre">
+    <br>
+</fieldset>
+<fieldset> <legend>Dados Profissionais</legend>
+    <label>Trabalha?:</label>
+    <label for="não">Não</label>
+    <input type="checkbox">
+    <label for="sim">Sim</label>
+    <input type="checkbox">
+<br>
+    <label for="loc">Local de Trabaho:</label>
+    <input type="text" id="loc">
+    <br>
+    <label for="exp">Experiências:</label>
+    <textarea name="experiências" id="exp" cols="50" rows="6"></textarea>
+</fieldset>
+<input type="submit" value="Gravar" class="button">
+<input type="reset" value="Limpar" class="buttom">
+      </form>
+    </div>
+</body>
+</html>
